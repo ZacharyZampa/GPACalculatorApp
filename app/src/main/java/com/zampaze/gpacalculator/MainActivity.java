@@ -124,6 +124,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.about:
                 Log.i("Item selected", "About");
+                Intent aboutIntent = new Intent(MainActivity.this, HelpActivity.class);
+                startActivity(aboutIntent);
                 return true;
             default:
                 return false;
