@@ -18,7 +18,7 @@ public abstract class CourseDatabase extends RoomDatabase {
         if (sInstance == null) {
             // create for first time
             synchronized (LOCK) {
-                Log.i(LOG_TAG, "Creating new Database Instance");
+//                Log.i(LOG_TAG, "Creating new Database Instance");
                 // create database if not exist, else connect to existing
                 sInstance = Room.databaseBuilder(context.getApplicationContext(),
                         CourseDatabase.class, CourseDatabase.DATABASE_NAME)
@@ -27,7 +27,7 @@ public abstract class CourseDatabase extends RoomDatabase {
                         .build();
             }
         }
-        Log.i(LOG_TAG, "Getting the Database Instance");
+//        Log.i(LOG_TAG, "Getting the Database Instance");
         return sInstance;
     }
 

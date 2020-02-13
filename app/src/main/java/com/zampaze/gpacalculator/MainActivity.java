@@ -114,16 +114,16 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.addCourse:
-                Log.i("Item selected", "Add CourseDetail");
+//                Log.i("Item selected", "Add CourseDetail");
                 Intent addCourseIntent = new Intent(MainActivity.this, AddCourseInfo.class);
                 startActivity(addCourseIntent);
                 return true;
             case R.id.clearCourses:
-                Log.i("Item Selected", "Clear Courses");
+//                Log.i("Item Selected", "Clear Courses");
                 clearCourses();
                 return true;
             case R.id.about:
-                Log.i("Item selected", "About");
+//                Log.i("Item selected", "About");
                 Intent aboutIntent = new Intent(MainActivity.this, HelpActivity.class);
                 startActivity(aboutIntent);
                 return true;
