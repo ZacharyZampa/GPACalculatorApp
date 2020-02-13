@@ -85,7 +85,7 @@ public class AddCourseInfo extends AppCompatActivity {
         // get credit amount
         EditText courseCreditsText = findViewById(R.id.courseCredits);
         String courseCreditsString = courseCreditsText.getText().toString();
-        int courseCredits = -1;
+        int courseCredits = 0;
         try {
             courseCredits = Integer.parseInt(courseCreditsString);
         } catch (Exception ex) {

@@ -12,13 +12,13 @@ public class CourseDetail {
     long cId = 0;
 
     @ColumnInfo(name = "credits")
-    int credits = -1;
+    int credits = 0;
 
     @ColumnInfo(name = "name")
     String cname = "none";
 
     @ColumnInfo(name = "grade")
-    double cgrade = -1.0;
+    double cgrade = 0.0;
 
     @Override
     public String toString() {
