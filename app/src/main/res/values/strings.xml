@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="add_course">Add New Course</string>
+    <string name="about">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="course_name">CSE 101</string>
+    <string name="course_credits">3</string>
+    <string name="clear">Clear List</string>
+    <string name="add">Add Course</string>
+    <string name="gpaIdent">GPA:</string>
+    <string name="totalCreditsIdent">Total Credits:</string>
+    <string name="header_text">GPA Calculator</string>
+    <string name="clear_all">Clear All</string>
+    <string name="aboutAuthor">Created by Zachary Zampa in 2020.</string>
+    <string name="aboutHelp">This app allows you to calculate your overall GPA. Simply the add course button and when you are finished filling out all of the information - press submit.</string>
+    <string name="nameLableHelp">Name:</string>
+    <string name="exampleGrade">B-</string>
+    <string name="gpaLabelText">Total GPA =</string>
+</resources>
